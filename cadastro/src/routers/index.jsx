@@ -4,6 +4,7 @@ import {
     Route
 } from 'react-router-dom'
 import { Login } from '../pages/Login'
+import { Register } from '../pages/Register'
 
 
 export const AppRouter = () => {
@@ -11,8 +12,12 @@ export const AppRouter = () => {
         <Router>
             <Routes>
                 <Route
-                    path='/'
+                    path='/login'
                     exact element={<Login />} />
+
+                <Route
+                    path='/register'
+                    exact element={<Register />} />
             </Routes>
         </Router>
     )
