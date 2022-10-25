@@ -45,7 +45,7 @@ export const Login = () => {
 
                 <div className='text-center'>
                     <span className='txt1'>Nao possui conta?</span>
-                    <Link className='txt2' to='#'>Criar conta.</Link>
+                    <Link className='txt2' to='/register'>Criar conta.</Link>
                 </div>
 
             </form>
