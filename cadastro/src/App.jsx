@@ -2,7 +2,7 @@ import { useState } from 'react';
 import logo from './assets/logo.svg'
 import './styles.css'
 
-function App() {
+export const App = () => {
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -55,5 +55,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
