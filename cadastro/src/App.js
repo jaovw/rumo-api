@@ -1,4 +1,6 @@
-import logo from './assets/logo.png'
+import logo from './assets/logo.svg'
+import './styles.css'
+
 function App() {
   return (
     <div className="container">
@@ -12,13 +14,13 @@ function App() {
             </span>
 
             <div className='wrap-input'>
-              <input type='email' />
+              <input type='email' className='input' />
               <span className='focus-input' data-placeholder='Email'></span>
             </div>
 
             <div className='wrap-input'>
-              <input type='Password' />
-              <span className='focus-input' data-placeholder='Email'></span>
+              <input type='password' className='input' />
+              <span className='focus-input' data-placeholder='Password'></span>
             </div>
 
             <div className='container-login-form-btn'>
