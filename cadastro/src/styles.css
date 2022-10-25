@@ -36,7 +36,7 @@
 
 .login-form-title {
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     color: azure;
 
     line-height: 1.2;
@@ -48,7 +48,7 @@
 }
 
 .login-form-title img {
-    width: 90px;
+    width: 200px;
 }
 
 .wrap-input {
