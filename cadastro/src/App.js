@@ -21,7 +21,7 @@ function App() {
             <div className='wrap-input'>
               <input
                 type='email'
-                className='input'
+                className={email !== '' ? 'has-val input' : 'input'}
                 value={email}
                 onChange={e => setEmail(e.target.value)}
               />
@@ -31,7 +31,7 @@ function App() {
             <div className='wrap-input'>
               <input
                 type='password'
-                className='input'
+                className={password !== '' ? 'has-val input' : 'input'}
                 value={password}
                 onChange={e => setPassword(e.target.value)}
               />
