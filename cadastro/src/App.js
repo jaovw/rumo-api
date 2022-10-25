@@ -1,7 +1,12 @@
+import { useState } from 'react';
 import logo from './assets/logo.svg'
 import './styles.css'
 
 function App() {
+
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+
   return (
     <div className="container">
       <div className="container-login">
@@ -14,12 +19,22 @@ function App() {
             </span>
 
             <div className='wrap-input'>
-              <input type='email' className='input' />
+              <input
+                type='email'
+                className='input'
+                value={email}
+                onChange={e => setEmail(e.target.value)}
+              />
               <span className='focus-input' data-placeholder='Email'></span>
             </div>
 
             <div className='wrap-input'>
-              <input type='password' className='input' />
+              <input
+                type='password'
+                className='input'
+                value={password}
+                onChange={e => setPassword(e.target.value)}
+              />
               <span className='focus-input' data-placeholder='Password'></span>
             </div>
 
