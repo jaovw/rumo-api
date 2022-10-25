@@ -193,3 +193,11 @@
     line-height: 1.5;
     text-decoration: none;
 }
+
+.has-val + .focus-input::after {
+    top: -12px;
+}
+
+.has-val + .focus-input::before {
+    width: 100%;
+}
