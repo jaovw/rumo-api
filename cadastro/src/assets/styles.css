@@ -137,7 +137,53 @@
     background: linear-gradient(to left, #31A6E6, #032E53);
 }
 
-.login-form-btn:hover {
+.register-form-btn {
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+
+    line-height: 1.2;
+
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90px;
+    height: 30px;
+
+    background: -webkit-repeating-linear-gradient(to left, #06BB1F, #0D8E1F);
+    background: -o-linear-gradient(to left, #06BB1F, #0D8E1F);
+    background: -moz-repeating-linear-gradient(to left, #06BB1F, #0D8E1F);
+    background: linear-gradient(to left, #06BB1F, #0D8E1F);
+}
+
+.cancel-form-btn {
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+
+    line-height: 1.2;
+
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90px;
+    height: 30px;
+    
+    background: -webkit-repeating-linear-gradient(to left, #B60916, #ED1122);
+    background: -o-linear-gradient(to left, #B60916, #ED1122);
+    background: -moz-repeating-linear-gradient(to left, #B60916, #ED1122);
+    background: linear-gradient(to left, #B60916, #ED1122);
+}
+
+.login-form-btn:hover, .register-form-btn:hover{
     cursor: pointer;
 }
 
