@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import logo from '../../assets/logo.svg'
-import '../../styles.css'
+import '../../assets/styles.css'
 import { Layout } from '../../components/layout';
 
 export const Login = () => {
@@ -44,8 +44,8 @@ export const Login = () => {
                 </div>
 
                 <div className='text-center'>
-                    <span className='txt1'>Nao possui conta?</span>
-                    <Link className='txt2' to='/register'>Criar conta.</Link>
+                    <span className='txt1'>Nao possui uma conta?</span>
+                    <Link className='txt2' to='/register'>Criar conta</Link>
                 </div>
 
             </form>
