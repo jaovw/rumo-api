@@ -20,3 +20,18 @@ Além da criação e desenvolvimeto do protótipo, foram necessários alguns out
  ## FLUXO :hourglass:
  
  ![fluxoBPM](https://user-images.githubusercontent.com/62576977/198159946-abf2b8fc-6f58-4a2b-9e06-dd3f9e3e62c4.png)
+
+## __DEPLOY__ :rocket:
+
+Entrar no diretório onde está os arquivos de configurações e dependências
+  ```
+  cd .\cadastro
+  ```
+  Instalação de dependências
+  ```
+   yarn add 
+  ```
+  Para início do sercviço
+  ```
+   yarn start
+  ```
